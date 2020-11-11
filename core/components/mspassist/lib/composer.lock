@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7596fc919c8f841cea621897d51a82b6",
+    "content-hash": "ae7e0611f1ea84f6a9b3c944e5e02e96",
+    "packages": [
+        {
+            "name": "gam6itko/assist-api",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gam6itko/php-assist-api.git",
+                "reference": "75e30e761d336c213cc5695174fc46f7c60c4a4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gam6itko/php-assist-api/zipball/75e30e761d336c213cc5695174fc46f7c60c4a4a",
+                "reference": "75e30e761d336c213cc5695174fc46f7c60c4a4a",
+                "shasum": ""
+            },
+            "require": {
+                "lib-curl": "*",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gam6itko\\Assist\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Strizhak",
+                    "email": "gam6itko@gmail.com"
+                }
+            ],
+            "description": "Api client for Assist payment processing service",
+            "keywords": [
+                "Russia",
+                "api",
+                "assist",
+                "payment",
+                "processing"
+            ],
+            "time": "2019-12-04 19:14:41"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
